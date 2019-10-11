@@ -1,0 +1,324 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    padding: 10px;
+    font-size: 30px;
+    color: pink;
+}
+
+.cname {
+    padding-left: 60px;
+}
+
+.htel {
+    padding-right: 60px;
+}
+
+
+main {
+    background-color: #EFF7FD;
+}
+
+#pagetop {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+#top {
+    color: black;
+    text-decoration: none;
+}
+
+.hedimg {
+  background-size: cover;
+}
+
+.hedimg img {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.menubar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    height: 100px;
+ 
+}
+
+#fixed {
+   position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.menubar li {
+    width: 180px;
+    padding-right: 10px;
+    font-size: 25px;
+    color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.sub {
+    height: 75px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.service {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6F7F8;
+}
+
+.service h1 {
+    padding: 30px;
+    text-align:center;
+}
+
+.cards {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+#servicon {
+    height: 40px;
+    width: 40px;
+}
+
+.plan {
+    height: 300px;
+    width: 100%;
+}
+
+.plan ul {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan li {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.plan p {
+    text-align: center;
+    padding: 10px;
+}
+
+.cta {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cta a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn {
+    height: 100px;
+    width: 500px;
+    margin: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4); 
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.btn p {
+    font-size: 30px;
+}
+
+.reason {
+    height: 75px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.tv {
+    height: 500px;
+    width: 100%;
+}
+
+.customer {
+    height: 500px;
+    width: 100%;
+    background-image: url(./img/visual_7_pc.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.customer h1 {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.kansya {
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kansya:hover {
+    background-color: palevioletred;
+}
+
+.kansya p {
+    color: white;
+}
+
+.saport {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.saport img {
+    height: 300px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.blog {
+    height: 1000px;
+    width: 100%;
+}
+
+.blog h1 {
+    margin-bottom: 30px;
+}
+
+.blcards {
+    display: flex;
+    justify-content: center;
+}
+
+.blcards ul {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blcards li {
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+}
+
+.blcards img {
+    height: 200px;
+    width: 300px;
+}
+
+.blcards h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.blcards p {
+    margin: 10px;
+
+}
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    height: 400px;
+    width: 300px;
+}
